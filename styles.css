@@ -1,0 +1,141 @@
+#page-mod-activitystatus-mod .statusimagesettings .modsheader{
+    font-weight: 700;
+    font-size: 120%;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .modinfo {
+    position: relative;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .mods {
+    margin-top: 10px;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings .modname {
+    font-weight: 600;
+    font-size: 110%;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.imagefile {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder .form-group.row {
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder .form-group.row .col-form-label {
+    max-width: none;
+}
+#page-mod-activitystatus-mod .statusimagesettings div.displayorder .fselect {
+    float: left;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.imagefile .form-group.row {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-mod-activitystatus-mod .statusimagesettings div.imagefile .form-group.row .col-form-label {
+    max-width: none;
+}
+
+#page-mod-activitystatus-mod #fitem_id_default_status,
+#page-mod-activitystatus-mod #fitem_id_default_background {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#page-mod-activitystatus-mod fieldset#id_activitycompletionheader,
+#page-mod-activitystatus-mod fieldset#id_availabilityconditionsheader,
+#page-mod-activitystatus-mod fieldset#id_modstandardelshdr {
+    display: none;
+}
+
+#page-mod-activitystatus-mod .modinfo-wrapper {
+    display: flex;
+}
+
+#page-mod-activitystatus-mod .imagefile-wrapper {
+    display: flex;
+}
+
+#page-mod-activitystatus-mod .displayorder {
+    flex-grow: 1;
+}
+
+#page-mod-activitystatus-mod .displayorder .form-inline.felement {
+    max-width: none;
+}
+
+.activity.activitystatus .modcontainer {
+    display: flex;
+    flex-basis: 33.333333%;
+    padding-left: 1%;
+    vertical-align: text-top;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.activity.activitystatus .modcontainer a {
+    width: 100%;
+}
+
+.activity.activitystatus .modcontainer:nth-child(3) {
+    padding-right: 1%;
+}
+
+.activity.activitystatus .modcontainer .modname {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.activitystatus.statusimage {
+    display: flex;
+    padding: 2% 1%;
+    justify-content: center;
+}
+
+.activitystatus.statusimage img {
+    width: 70%;
+}
+
+.activity.activitystatus {
+    margin: auto;
+}
+
+.activity.activitystatus .widgetcontents {
+    display: flex;
+    padding: 3% 0;
+    flex-wrap: wrap;
+}
+
+.activity.activitystatus .widgetcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+@media (max-width: 480px) {
+    .activity.activitystatus .modname {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    .activity.activitystatus .modname {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 980px) {
+    .activity.activitystatus .modname {
+        font-size: 100%;
+    }
+}
