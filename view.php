@@ -21,10 +21,6 @@ if ($id) {
     if (!$course = $DB->get_record("course", array("id" => $cm->course))) {
         print_error('coursemisconf');
     }
-
-    if (!$widget = $DB->get_record("label", array("id" => $cm->instance))) {
-        print_error('invalidcoursemodule');
-    }
 } else {
     $PAGE->set_url('/mod/activitystatus/index.php', array('l' => $wid));
     if (!$widget = $DB->get_record("activitystatus", array("id" => $wid))) {
